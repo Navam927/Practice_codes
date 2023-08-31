@@ -1,0 +1,27 @@
+1)Write C Program to print current Date and Time Using predefined macros.
+2)Write C Program to Swap two numbers using predefined macros.
+Input: 5,10
+Output: Before swap: x = 5, y = 10
+        After swap: x = 10, y = 5
+3)Write C Program to terminate running program if input value is negative.
+Input: 10
+Output: All is well
+
+Input: -5
+Output: Assertion error  
+4)Write C Program to concatenate two strings using  macros.
+Input: Hello,World
+Output: Concatenated string: HelloWorld      
+5)Write C Program to print the name of the current executing function in C using predefined macros.
+6)Write C Program to generate the compilation error on particular situation using predefined macros.
+7)Write C Program to calculate Modulo of given numbers using  macros.
+
+Input: 13,3
+Output: Result: 1
+
+Input: 90,8
+Output: Result: 2
+8)Write C Program to Find Maximum of two numbers using predefined macros.
+
+Input: 5,10
+Output: The maximum number is: 10
