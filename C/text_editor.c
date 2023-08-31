@@ -141,11 +141,21 @@ void file_deleter(){
     printf("Enter file name: ");
     scanf("%s",&file_name);
 
-    if(remove(file_name)==0){
-        printf("%s was deleted successfully!",file_name);
+   
+    if (strcmp(file_name, "text_editor.c") == 0) {
+        printf("Nice try \n Ha ha");
     }
-    else{
-        printf("Cannot delete %s ",file_name);
+    
+    else 
+    {
+        if(remove(file_name)==0)
+        {
+            printf("%s was deleted successfully!",file_name);
+    }
+        else
+        {
+            printf("Cannot delete %s ",file_name);
+    }
     }
 } 
 
@@ -191,5 +201,9 @@ int main() {
     if(input_char =='d')
     {
         file_deleter();
+    }
+
+    else {
+        printf("Invalid input!");
     }
 }
