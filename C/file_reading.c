@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main() {
     FILE *fptr;
-    fptr = fopen("abc.htm","r");
+    fptr = fopen("test.txt","r");
     char ch;
     ch = fgetc(fptr);
     while(ch != EOF){

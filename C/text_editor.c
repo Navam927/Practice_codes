@@ -7,16 +7,25 @@ void starter() {
     scanf("%c",&input_char);
     FILE *ptr;
    
-    if(input_char == 'o'){
+    if(input_char == 'o')
+    {
         char file_name[100];
         printf("Enter name of file you want to open: ");
         scanf("%s",file_name);
         ptr = fopen(file_name,"r");
-        if(ptr != NULL){
+        if(ptr != NULL)
+        {
         printf("%s was oppened successfully",file_name);
+        char ch;
+        ch = fgetc(ptr);
+        while(ch != EOF) {
+            printf("%c",ch);
+            ch = fgetc(ptr);
         }
-        else{
-        printf("File doesn't exist");
+        }
+        else
+        {
+        printf("File doesn't exist !");
         }
         fclose(ptr);
     }
@@ -53,7 +62,6 @@ void starter() {
 
 int main() {
     printf("### File manager###\n");
-    
     starter();
 }
 
