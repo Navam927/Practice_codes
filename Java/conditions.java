@@ -10,5 +10,6 @@ public class conditions {
         else{
             System.out.println("Not Adult");
         }
+        sc.close();
     }
 }
