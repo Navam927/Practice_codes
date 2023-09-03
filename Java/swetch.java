@@ -14,5 +14,5 @@ public class swetch {
             default: System.out.println("Invalid");
         }
         sc.close();
-    }
+    } 
 }
