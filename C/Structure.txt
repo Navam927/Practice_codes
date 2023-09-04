@@ -1,0 +1,1 @@
+The structure in C is a user defined data type, that can be used to group items of possibilities different type to a single type. The items in a structure are called it's member and they can be of any valid data type. 
