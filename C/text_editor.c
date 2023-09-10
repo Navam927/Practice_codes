@@ -24,6 +24,10 @@ void file_opener(){
 
     FILE *fptr;
     fptr = fopen(file_name,"r");
+    if (strcmp(file_name, "text_editor.c") == 0) {
+        printf("Nice try \n Ha ha");
+        abort();
+    }
     char ch;
     ch = fgetc(fptr);
     if(fptr != NULL) 
@@ -113,10 +117,6 @@ int main() {
     if(input_char == 'e') 
     {
         abort();
-    }
-    else
-    {
-        printf("Invalid Input!");
     }
     
 

@@ -10,7 +10,7 @@ int main() {
     for(int i = 0; i < n; i++) {
         scanf("%d",&arr[i]);
     }
-    printf("Array before sorting is: ");
+    printf("\n\nArray before sorting is: ");
     for(int i = 0; i < n; i++) {
         printf("%d ",arr[i]);
     }
