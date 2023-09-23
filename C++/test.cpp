@@ -1,13 +1,18 @@
 #include<iostream>
 using namespace std;
-int evenSum(int n){
-    return (n*(n+1));
-}
+
 int main() {
     int n;
-    cout<<"Enter number upto which you want to calculate sum: ";
+    cout<<"Enter size of array: ";
     cin>>n;
-    int result = evenSum(n);
-    cout<<result<<endl;
-    return 0;
+    int arr[n];
+    cout<<"Enter elements to array: ";
+    for(int i = 0; i < n; i++){
+        cin>>arr[i];
+    }
+
+    cout<<"The elements of array are: ";
+    for(int i = 0; i < n; i++){
+        cout<<arr[i]<<" ";
+    }
 }
